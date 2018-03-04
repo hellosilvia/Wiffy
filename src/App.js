@@ -13,7 +13,7 @@ const Header = ({clearSearch, hasResults}) => (
       </button>
     ) : (
       <h1 className="title" onClick={clearSearch}>
-        Wiffy
+        Silvia's Wiffy
       </h1>
     )}
   </div>
