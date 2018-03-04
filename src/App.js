@@ -81,7 +81,7 @@ class App extends Component {
         //concat array
         gifs: [...prevState.gifs, randomGif],
         loading: false,
-        hintText: `Hit enter see more ${searchTerm}`
+        hintText: `Hi. Kristin. Hit enter see more ${searchTerm}`
       }));
 
       console.log(data);
@@ -103,7 +103,7 @@ class App extends Component {
       //we take our old props and spread here then overwrite the one we want after
       ...prevState,
       searchTerm: value,
-      hintText: value.length > 2 ? `Hit enter to search ${value}` : ''
+      hintText: value.length > 2 ? `Hi. Kristin. Hit enter to search ${value}` : ''
     }));
   };
 
